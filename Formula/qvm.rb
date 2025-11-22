@@ -3,7 +3,7 @@ class Qvm < Formula
   homepage "https://github.com/ashaltu/quran-video-maker-ffmpeg"
   url "https://github.com/ashaltu/quran-video-maker-ffmpeg/releases/download/v0.1.0/qvm-ffmpeg-v0.1.0.tar.gz"
   sha256 "392adf899b62cdbd7087dbd268992e1bacd8fc95b211c56eaeb848026da0e90e"
-  license "NOASSERTION"
+  license "GPL-3.0"
 
   depends_on "cmake" => :build
   depends_on "pkg-config" => :build
