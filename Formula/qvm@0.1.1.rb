@@ -1,4 +1,4 @@
-class QvmAT012 < Formula
+class QvmAT011 < Formula
   desc "C++/FFmpeg tool that generates high-quality Quran verse videos"
   homepage "https://github.com/ashaltu/quran-video-maker-ffmpeg"
   url "https://github.com/ashaltu/quran-video-maker-ffmpeg/releases/download/v0.1.1/qvm-v0.1.1.tar.gz"
