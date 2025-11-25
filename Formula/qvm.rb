@@ -14,9 +14,19 @@ class Qvm < Formula
   depends_on "harfbuzz"
   depends_on "nlohmann-json"
 
+  resource "data" do
+    url "https://qvm-r2-storage.tawbah.app/data.tar"
+    sha256 "f75ba5c184a0e88574c137773c1a19e66ecffd3295cfc7a3ed9dd179cefd74ff"
+  end
+
   def install
     system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     system "cmake", "--build", "build"
     system "cmake", "--install", "build"
+
+    # Stage data into the shared path for runtime access
+    resource("data").stage do
+      (share/"quran-video-maker/data").install Dir["*"]
+    end
   end
 end
