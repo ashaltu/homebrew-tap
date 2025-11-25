@@ -1,8 +1,8 @@
 class Qvm < Formula
   desc "C++/FFmpeg tool that generates high-quality Quran verse videos"
   homepage "https://github.com/ashaltu/quran-video-maker-ffmpeg"
-  url "https://github.com/ashaltu/quran-video-maker-ffmpeg/releases/download/v0.1.0/qvm-v0.1.0.tar.gz"
-  sha256 "292c061be8478b94bfc42747f48a6fb79e78ea079bd3a0497d39c2469955854e"
+  url "https://github.com/ashaltu/quran-video-maker-ffmpeg/releases/download/v0.1.1/qvm-v0.1.1.tar.gz"
+  sha256 "0056911fbe24d281ec54f4a81197163f0e18a15e75123edeb084d18421277ff0"
   license "GPL-3.0"
 
   depends_on "cmake" => :build
