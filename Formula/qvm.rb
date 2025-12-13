@@ -13,6 +13,7 @@ class Qvm < Formula
   depends_on "freetype"
   depends_on "harfbuzz"
   depends_on "nlohmann-json"
+  depends_on "aws-sdk-cpp"
 
   resource "data" do
     url "https://qvm-r2-storage.tawbah.app/data.tar"
